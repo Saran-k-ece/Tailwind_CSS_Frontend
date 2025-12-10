@@ -1,81 +1,69 @@
 🍔 Burger Website
 
-A modern, fully responsive single-page restaurant website built using HTML, Tailwind CSS, JavaScript, Swiper.js, and ScrollReveal animations. The website showcases sections like Home, About, Menu, Categories, Promotions, Reviews, and Contact.
+A modern and fully responsive restaurant website built using HTML, Tailwind CSS, and JavaScript, featuring elegant animations, category filtering, mobile navigation, and interactive UI components.
 
 🚀 Features
-✅ Fully Responsive UI
+⭐ Fully Responsive Design
 
-Designed with Tailwind CSS utility classes ensuring smooth experience on mobile, tablet, and desktop.
+Built with Tailwind CSS utility classes to ensure smooth responsiveness across all screen sizes.
 
-✅ Modern Animations
+⭐ Modern Scroll Animations
 
-Uses ScrollReveal for smooth scroll animations & CSS animations for floating elements.
+Integrated ScrollReveal + CSS animations for smooth transitions and dynamic UI effects.
 
-✅ Interactive Menu Filter
+⭐ Interactive Menu Filter
 
-Menu items can be filtered by category:
+Users can filter menu items by category:
 All | Food | Snack | Beverage
 
-✅ Mobile Navigation Menu
+⭐ Mobile-Friendly Navigation
 
-Includes a hamburger menu with open/close toggle for smaller screens.
+Includes a hamburger menu with open/close functionality for smaller devices.
 
-✅ Reusable Components
+⭐ Reusable UI Components
 
-Includes styled buttons, cards, category sections, promo sections, and contact form.
+Buttons, cards, promo sections, and forms reusable throughout the site.
 
-✅ Swiper.js Integration
+⭐ Swiper.js Integration
 
-Used to implement sliders (if present in your extended version).
+Used for sliders (if enabled).
 
 🛠️ Technologies Used
-Technology	Purpose
+Tech	Purpose
 HTML5	Structure
 Tailwind CSS	Styling & responsiveness
 JavaScript (ES6)	Menu toggle, filtering, animations
 Font Awesome	Icons
 Remix Icons	Extra icons
 Swiper.js	Sliders
-ScrollReveal	On-scroll animations
-
-📁 Folder Structure
+ScrollReveal	Animation library
+📂 Folder Structure
 project-folder/
 │── index.html
-│── output.css        # Compiled Tailwind CSS file
-│── main.js           # JavaScript interactions
+│── output.css              # Compiled Tailwind CSS file
+│── main.js                 # JavaScript interactions
 │── tailwind.config.js
 │── package.json
 │── img/
-│   ├── home-image.png
-│   ├── burger-1.png
-│   ├── promo-1.png
-│   └── ...etc
+│    ├── home-image.png
+│    ├── burger-1.png
+│    ├── promo-1.png
+│    └── ...etc
 
-🧩 How to Run the Project Locally
-1️⃣ Install Tailwind (if you're using npm)
+⚙️ How to Run Locally
+1️⃣ Install Dependencies
+
+If using Tailwind with npm:
+
 npm install
 
 2️⃣ Build Tailwind CSS
 npx tailwindcss -i ./src/input.css -o ./output.css --watch
 
-3️⃣ Start Project
+3️⃣ Start the Project
 
 Just open:
 
 index.html
 
-
 in your browser.
-
-🌐 Deployment
-
-This project can be deployed on:
-
-Vercel
-
-
-
-
-Important: Make sure output.css is placed in the root folder and correctly linked:
-
-<link rel="stylesheet" href="./output.css" />
