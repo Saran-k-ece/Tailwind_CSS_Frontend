@@ -37,18 +37,7 @@ Font Awesome	Icons
 Remix Icons	Extra icons
 Swiper.js	Sliders
 ScrollReveal	Animation library
-📂 Folder Structure
-project-folder/
-│── index.html
-│── output.css              # Compiled Tailwind CSS file
-│── main.js                 # JavaScript interactions
-│── tailwind.config.js
-│── package.json
-│── img/
-│    ├── home-image.png
-│    ├── burger-1.png
-│    ├── promo-1.png
-│    └── ...etc
+
 
 ⚙️ How to Run Locally
 1️⃣ Install Dependencies
